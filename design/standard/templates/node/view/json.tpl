@@ -12,13 +12,13 @@
   "parent_node_id":{$node.parent_node_id},
   "main_node_id":{$node.main_node_id},
   "depth":{$node.depth},
-  "sort_field"="{$node.sort_field|washxml}"
-  "sort_order"="{$node.sort_order|washxml}",
-  "priority"={$node.priority},
-  "modified_subnode"={$node.modified_subnode},
-  "path_string"="{$node.path_string}",
-  "path_identification_string"="{$node.path_identification_string|washxml}",
-  "remote_id"="{$node.remote_id|washxml}",
+  "sort_field":"{$node.sort_field|washxml}",
+  "sort_order":"{$node.sort_order|washxml}",
+  "priority":{$node.priority},
+  "modified_subnode":{$node.modified_subnode},
+  "path_string":"{$node.path_string}",
+  "path_identification_string":"{$node.path_identification_string|washxml}",
+  "remote_id":"{$node.remote_id|washxml}",
   "object":{content_view_gui view = json content_object = $node.object}
 
   "children_list":[
